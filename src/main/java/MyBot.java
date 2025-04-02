@@ -6,6 +6,13 @@ import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 import java.io.IOException;
 
+/*
+*
+* More  Feature will be added here......
+*
+* 
+*
+* */
 public class MyBot extends TelegramLongPollingBot {
 
     @Override
@@ -49,8 +56,6 @@ public class MyBot extends TelegramLongPollingBot {
             } catch (TelegramApiException e) {
                 e.printStackTrace();
             }
-
-
 
 
         }
