@@ -9,7 +9,7 @@ import java.net.http.HttpResponse;
 public class WeatherDetails {
 
     public static String getWeatherInfo(String city) throws IOException, InterruptedException {
-        String apiKey = "d012fe60b0a968b0ee30ac271515f031";
+        String apiKey = "d012fe60b0a968b0e********"; //cOLLECT YOUR ORIGINAL API KEY FIRST
         String url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey;
 
         HttpRequest request = HttpRequest.newBuilder()
