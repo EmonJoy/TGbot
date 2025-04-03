@@ -8,7 +8,7 @@ import java.io.IOException;
 
 /*
 *
-* More  Feature will be added here......
+* More  features will be added here......
 *
 * 
 *
@@ -22,7 +22,7 @@ public class MyBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "6817651266:AAHDzZjfl3JyMhubKWcg-_hmTvqiCPw1JSY";
+        return "{YOUR TELEGRAM BOT'S TOKEN}";
     }
 
     @Override
