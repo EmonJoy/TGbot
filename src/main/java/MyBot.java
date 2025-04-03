@@ -10,7 +10,7 @@ import java.io.IOException;
 *
 * More  Feature will be added here......
 *
-* 
+*
 *
 * */
 public class MyBot extends TelegramLongPollingBot {
